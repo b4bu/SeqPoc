@@ -46,7 +46,7 @@ internal class Worker : BackgroundService
     {
         using (logger.BeginScope(new MyDictionary<string, object>
         {
-            // ["Application"] = "ConsoleApp1", // No need. Added as property on the API key at seq server.
+            // ["Application"] = "Seqpoc", // No need. Added as property on the API key at seq server.
             ["Foo"] = 42,
             ["Bar"] = 43
         }))
@@ -55,8 +55,7 @@ internal class Worker : BackgroundService
             {
                 // Zzzzzz
                 await Task.Delay(1000, stoppingToken);
-                var count = Interlocked.Increment(ref executionCount);
-                logger.LogInformation("Worker: LogInformation {Count}", count);
+                logger.LogInformation("2Worker: LogInformation {Count}", Interlocked.Increment(ref executionCount));
             }
         }
     }
@@ -69,6 +68,6 @@ public class MyDictionary<TKey, TValue> : Dictionary<TKey, TValue>
 
     public override string ToString()
     {
-        return JsonSerializer.Serialize(this);
+        return JsonSerializer.Serialize(this); // Here's why. The Console logger provider calls Dictionary.ToString() and we want to content to be displayed.
     }
 }
