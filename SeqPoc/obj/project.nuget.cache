@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cVFsi8CTZ9RvzBg9v9aMWD3H9Q0bTuCs3xBENxLtN2WAU7cATErGA5Pm98PD/zDT79fFn6iS0N/DuKyAOSf8Ow==",
+  "dgSpecHash": "Gmo9+AWwRgi0rMH29Ne9+KQgAaauQIopE3SGnw/m6v48KR3pm4Xydjx/5yO9FGyO6ds8TSMCXVoNUQOPEug8ag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BaardBugge\\git\\SeqPoc\\SeqPoc\\SeqPoc.csproj",
+  "projectFilePath": "C:\\Users\\BaardBugge\\Git\\SeqPoc\\SeqPoc\\SeqPoc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BaardBugge\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\BaardBugge\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

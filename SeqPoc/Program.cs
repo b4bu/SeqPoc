@@ -23,12 +23,12 @@ public class Program
                 services.AddLogging(configure =>
                 configure
                     //.AddConsole(options => options.IncludeScopes = true)
-                    .AddSimpleConsole(options =>
-                    {
-                        options.IncludeScopes = true;
-                        //options.SingleLine = true;
-                        options.TimestampFormat = "HH:mm:ss ";
-                    })
+                    //.AddSimpleConsole(options =>
+                    //{
+                    //    options.IncludeScopes = true;
+                    //    //options.SingleLine = true;
+                    //    options.TimestampFormat = "HH:mm:ss ";
+                    //})
                     .AddSeq(configuration.GetSection("Seq")));
             });
 }
@@ -55,7 +55,7 @@ internal class Worker : BackgroundService
             {
                 // Zzzzzz
                 await Task.Delay(1000, stoppingToken);
-                logger.LogInformation("2Worker: LogInformation {Count}", Interlocked.Increment(ref executionCount));
+                logger.LogInformation("Worker: LogInformation {Count}", Interlocked.Increment(ref executionCount));
             }
         }
     }

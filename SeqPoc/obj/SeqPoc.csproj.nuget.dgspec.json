@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BaardBugge\\git\\SeqPoc\\SeqPoc\\SeqPoc.csproj": {}
+    "C:\\Users\\BaardBugge\\Git\\SeqPoc\\SeqPoc\\SeqPoc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BaardBugge\\git\\SeqPoc\\SeqPoc\\SeqPoc.csproj": {
+    "C:\\Users\\BaardBugge\\Git\\SeqPoc\\SeqPoc\\SeqPoc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BaardBugge\\git\\SeqPoc\\SeqPoc\\SeqPoc.csproj",
+        "projectUniqueName": "C:\\Users\\BaardBugge\\Git\\SeqPoc\\SeqPoc\\SeqPoc.csproj",
         "projectName": "SeqPoc",
-        "projectPath": "C:\\Users\\BaardBugge\\git\\SeqPoc\\SeqPoc\\SeqPoc.csproj",
+        "projectPath": "C:\\Users\\BaardBugge\\Git\\SeqPoc\\SeqPoc\\SeqPoc.csproj",
         "packagesPath": "C:\\Users\\BaardBugge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BaardBugge\\git\\SeqPoc\\SeqPoc\\obj\\",
+        "outputPath": "C:\\Users\\BaardBugge\\Git\\SeqPoc\\SeqPoc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BaardBugge\\AppData\\Roaming\\NuGet\\NuGet.Config",
